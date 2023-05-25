@@ -1,0 +1,5 @@
+scenes = pages;
+state = data reutilizable;
+themes = tema css;
+
+Para hacer un componente de estilo puedo declarar todos los estilos en un archivo aparte y importarlo como etiqueta, vease "Flex Between" component.
