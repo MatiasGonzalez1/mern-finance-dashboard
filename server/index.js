@@ -6,6 +6,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import helmet from "helmet";
 import morgan from "morgan";
+import kpiRoutes from "./routes/kpi.js"
 
 /*CONFIGURATIONS*/
 
@@ -19,6 +20,8 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(cors())
 
+/*ROUTES */
+app.use("/kpi", kpiRoutes)
 console.log("hello");
 
 /* MONGOOSE SETUP */

@@ -1,3 +1,4 @@
 Problemas con las versiones de las dependencias
 
+/*Mongoose es el orm para los modelos*/
 Se requiere mongoose "^5.9.13" o superior 
