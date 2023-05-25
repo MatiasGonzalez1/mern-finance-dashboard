@@ -1,4 +1,4 @@
-# Sirius Training Pokedex
+# MERN FINANCE DASHBOARD
 
 - In this project i building an finance dashboard using Vite, Node.js, React.js, Redux, Material UI, Typescript, Express, the [Tutorial](https://www.youtube.com/watch?v=uoJ0Tv-BFcQ&ab_channel=EdRoh) and using Vercel to deployment.
 
