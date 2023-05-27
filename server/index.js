@@ -6,7 +6,9 @@ import cors from "cors";
 import dotenv from "dotenv";
 import helmet from "helmet";
 import morgan from "morgan";
-import kpiRoutes from "./routes/kpi.js"
+import kpiRoutes from "./routes/kpi.js";
+import KPI from "./models/KPI.js";
+import {kpis} from "./data/data.js";
 
 /*CONFIGURATIONS*/
 
@@ -35,6 +37,7 @@ mongoose
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
 
     /* ADD DATA ONE TIME ONLY OR AS NEEDED */
+    //you drop database all the time, use only on development
     // await mongoose.connection.db.dropDatabase();
     // KPI.insertMany(kpis);
     // Product.insertMany(products);
